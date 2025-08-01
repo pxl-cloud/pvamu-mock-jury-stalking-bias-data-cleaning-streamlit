@@ -1,0 +1,20 @@
+# --- Basic Configuration ---
+[app]
+title = "Data Analysis Dashboard"
+author = "Analytics Team"
+version = 1.2
+dark_theme_enabled = true
+
+# --- Data Source Settings ---
+[data]
+# File paths and names can be stored here.
+source_file = "data/sales_data.csv"
+backup_file = "data/backup/sales_data_backup.csv"
+
+# --- User Interface Settings ---
+[ui]
+# A list of menu items.
+menu_items = ["Overview", "Charts", "Reports"]
+# You can also store colors.
+primary_color = "#4CAF50"
+secondary_color = "#FF9800"
