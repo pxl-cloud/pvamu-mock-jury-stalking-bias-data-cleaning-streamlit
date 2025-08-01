@@ -6,6 +6,6 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Hypothesis 2")
+st.markdown("# :material/psychology_alt: Hypothesis 2")
 
 st.write("This is the hypothesis 2 page")

@@ -6,6 +6,6 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Data")
+st.markdown("# :material/table: Data")
 
 st.write("This is the data page")

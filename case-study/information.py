@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("Information")
+st.markdown("# :material/info: Information")
 
 st.write("This is the information page")
 
